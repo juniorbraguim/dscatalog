@@ -3,9 +3,9 @@ package com.devsuperior.dscatolog.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.devsuperior.dscatolog.entities.Category;
+import com.devsuperior.dscatolog.entities.Product;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Category, Long>{
+public interface ProductRepository extends JpaRepository<Product, Long>{
 
 }
